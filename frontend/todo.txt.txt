@@ -1,0 +1,7 @@
+- wykresy dla transakcji
+- wykresy dla budzetow
+- wykresy dla transakcji+budzetow
+
+-umozliwic zmiane hasla w podstronie dla profilu
+- zrobic demonstralny profil (np. login: BudgetApp, haslo: BudgetApp) z wypelnionymi danymi, gdzie beda wizulizacje - trzeba
+byloby ograniczyc takiego uzytkownika przed mozliwoscia edytowania tego profilu

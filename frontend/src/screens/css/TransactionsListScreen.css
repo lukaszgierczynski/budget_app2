@@ -1,0 +1,21 @@
+.table-container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.table-container th, td {
+  text-align: center;
+  padding: 6px;
+}
+
+/* Ustaw maksymalną szerokość dla kolumny, która ma być schowana */
+.table-container td:nth-child(2) {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Dodaj "..." na końcu, gdy zawartość jest zbyt długa */
+    white-space: nowrap; /* Zapobiegaj zawijaniu tekstu poziomo */
+  }
+
+  .table-container .content-row:hover {
+    cursor: pointer;
+  }

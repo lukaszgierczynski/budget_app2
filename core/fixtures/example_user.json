@@ -1,0 +1,414 @@
+[
+  {
+    "model": "core.expensecategory",
+    "fields": {
+      "user": 2,
+      "is_predefined": false,
+      "category_name": "lekarstwa"
+    }
+  },
+  {
+    "model": "core.expensecategory",
+    "fields": {
+      "user": 2,
+      "is_predefined": false,
+      "category_name": "piłka nożna"
+    }
+  },
+  {
+    "model": "core.expensecategory",
+    "fields": {
+      "user": 2,
+      "is_predefined": false,
+      "category_name": "kino"
+    }
+  },
+  {
+    "model": "core.incomecategory",
+    "fields": {
+      "user": 2,
+      "is_predefined": false,
+      "category_name": "wynajem mieszkania"
+    }
+  },
+  {
+    "model": "core.incomecategory",
+    "fields": {
+      "user": 2,
+      "is_predefined": false,
+      "category_name": "udzielanie korepetycji"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 3,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -350,
+      "transaction_name": "hydraulik",
+      "description": null,
+      "transaction_date": "2023-01-10",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 5,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -400,
+      "transaction_name": "buty zimowe",
+      "description": null,
+      "transaction_date": "2023-01-15",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 7,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -300,
+      "transaction_name": "karta miejska",
+      "description": null,
+      "transaction_date": "2023-02-10",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 1,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -500,
+      "transaction_name": "cel charytatywny",
+      "description": null,
+      "transaction_date": "2023-02-15",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 13,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -50,
+      "transaction_name": "wyjscie do kina",
+      "description": null,
+      "transaction_date": "2023-10-10",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 12,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -100,
+      "transaction_name": "bilet na mecz",
+      "description": null,
+      "transaction_date": "2023-10-10",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 2,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -100,
+      "transaction_name": "kurs online",
+      "description": null,
+      "transaction_date": "2023-11-10",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 2,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -200,
+      "transaction_name": "kurs online",
+      "description": null,
+      "transaction_date": "2023-11-15",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 6,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -100,
+      "transaction_name": "teatr",
+      "description": null,
+      "transaction_date": "2023-12-15",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 4,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -150,
+      "transaction_name": "alko",
+      "description": null,
+      "transaction_date": "2023-12-20",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 9,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -300,
+      "transaction_name": "zakupy biedronka",
+      "description": null,
+      "transaction_date": "2023-12-20",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 6,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -200,
+      "transaction_name": "fajerwerki",
+      "description": null,
+      "transaction_date": "2023-12-31",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 8,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -200,
+      "transaction_name": "lekarz",
+      "description": "polmed warszawa",
+      "transaction_date": "2024-01-10",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": 9,
+      "is_income": false,
+      "income_category": null,
+      "money_amount": -300,
+      "transaction_name": "zakupy biedronka",
+      "description": null,
+      "transaction_date": "2024-01-12",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 1,
+      "money_amount": 5000,
+      "transaction_name": "pensja - firma A",
+      "description": null,
+      "transaction_date": "2023-10-30",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 2,
+      "money_amount": 1000,
+      "transaction_name": "makler",
+      "description": null,
+      "transaction_date": "2023-11-15",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 1,
+      "money_amount": 5000,
+      "transaction_name": "pensja - firma A",
+      "description": null,
+      "transaction_date": "2023-11-30",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 5,
+      "money_amount": 200,
+      "transaction_name": "korepetycje - matematyka",
+      "description": null,
+      "transaction_date": "2023-12-10",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 4,
+      "money_amount": 2000,
+      "transaction_name": "mieszkanie - ul. spokojna",
+      "description": null,
+      "transaction_date": "2023-12-15",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 1,
+      "money_amount": 6000,
+      "transaction_name": "pensja - firma A",
+      "description": null,
+      "transaction_date": "2023-12-30",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 4,
+      "money_amount": 2000,
+      "transaction_name": "mieszkanie - ul. spokojna",
+      "description": null,
+      "transaction_date": "2024-01-15",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.transaction",
+    "fields": {
+      "user": 2,
+      "expense_category": null,
+      "is_income": true,
+      "income_category": 1,
+      "money_amount": 6000,
+      "transaction_name": "pensja - firma A",
+      "description": null,
+      "transaction_date": "2024-01-30",
+      "created_at": "2023-10-08T17:25:15.140Z"
+    }
+  },
+  {
+    "model": "core.budget",
+    "fields": {
+      "user": 2,
+      "start_date": "2023-11-01",
+      "end_date": "2023-11-30"
+    }
+  },
+  {
+    "model": "core.budgetcategory",
+    "fields": {
+      "category": 9,
+      "budget": 2,
+      "money_amount": 2000
+    }
+  },
+  {
+    "model": "core.budgetcategory",
+    "fields": {
+      "category": 6,
+      "budget": 2,
+      "money_amount": 1000
+    }
+  },
+  {
+    "model": "core.budgetcategory",
+    "fields": {
+      "category": 8,
+      "budget": 2,
+      "money_amount": 500
+    }
+  },
+  {
+    "model": "core.budget",
+    "fields": {
+      "user": 2,
+      "start_date": "2023-12-01",
+      "end_date": "2023-12-31"
+    }
+  },
+  {
+    "model": "core.budgetcategory",
+    "fields": {
+      "category": 9,
+      "budget": 3,
+      "money_amount": 2000
+    }
+  },
+  {
+    "model": "core.budgetcategory",
+    "fields": {
+      "category": 6,
+      "budget": 3,
+      "money_amount": 1000
+    }
+  },
+  {
+    "model": "core.budgetcategory",
+    "fields": {
+      "category": 8,
+      "budget": 3,
+      "money_amount": 300
+    }
+  }
+]
